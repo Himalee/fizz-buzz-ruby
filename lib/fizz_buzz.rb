@@ -5,6 +5,8 @@ class FizzBuzz
       0
     elsif number.to_i % 3 == 0
       "Fizz"
+    elsif number.to_i == 5
+      "Buzz"
     else number.to_i
     end
   end

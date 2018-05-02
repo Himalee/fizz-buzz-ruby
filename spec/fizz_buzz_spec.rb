@@ -32,6 +32,12 @@ describe FizzBuzz do
       end
     end
 
+    context "given five" do
+      it "returns Buzz" do
+        expect(FizzBuzz.divisible_by("5")).to eql("Buzz")
+      end
+    end
+
 
   end
 end

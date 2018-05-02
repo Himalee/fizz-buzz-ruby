@@ -3,7 +3,9 @@ class FizzBuzz
   def self.divisible_by(number)
     if number == ""
       0
-    else return number.to_i
+    elsif number.to_i == 3
+      "Fizz"
+    else number.to_i
     end
   end
 

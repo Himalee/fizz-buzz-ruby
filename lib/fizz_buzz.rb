@@ -3,7 +3,7 @@ class FizzBuzz
   def self.divisible_by(number)
     if number == ""
       0
-    elsif  number.to_i == 15
+    elsif  number.to_i % 15 == 0
       "Fizz Buzz"
     elsif number.to_i % 3 == 0
       "Fizz"

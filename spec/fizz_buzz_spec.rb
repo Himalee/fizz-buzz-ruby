@@ -14,5 +14,11 @@ describe FizzBuzz do
       end
     end
 
+    context "given two" do
+      it "returns two" do
+        expect(FizzBuzz.divisible_by("2")).to eql(2)
+      end
+    end
+
   end
 end

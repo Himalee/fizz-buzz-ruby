@@ -2,9 +2,9 @@ require "fizz_buzz"
 
 describe FizzBuzz do
   describe ".divisible_by" do
-    context "given empty string" do
-      it "returns Not a number" do
-        expect(FizzBuzz.divisible_by(0)).to eql("Not a number")
+    context "given zero" do
+      it "returns zero" do
+        expect(FizzBuzz.divisible_by(0)).to eql(0)
       end
     end
 

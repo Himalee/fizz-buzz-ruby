@@ -1,9 +1,8 @@
 class FizzBuzz
 
   def self.divisible_by(number)
-    number = number.to_i
     if number == 0
-      "Not a number"
+      0
     elsif number % 15 == 0
       "Fizz Buzz"
     elsif number % 3 == 0

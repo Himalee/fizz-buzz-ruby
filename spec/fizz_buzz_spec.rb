@@ -5,9 +5,6 @@ describe FizzBuzz do
   describe ".divisible_by" do
 
     context "given number, returns number" do
-      it "zero returns zero" do
-        expect(FizzBuzz.divisible_by(0)).to eql(0)
-      end
       it "one returns one" do
         expect(FizzBuzz.divisible_by(1)).to eql(1)
       end
@@ -41,6 +38,9 @@ describe FizzBuzz do
       end
       it "thirty returns Fizz Buzz" do
         expect(FizzBuzz.divisible_by(30)).to eql("Fizz Buzz")
+      end
+      it "zero returns " do
+        expect(FizzBuzz.divisible_by(0)).to eql("Fizz Buzz")
       end
     end
 

@@ -11,5 +11,4 @@ class FizzBuzz
       number
     end
   end
-
 end
